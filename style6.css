@@ -1,0 +1,122 @@
+html{
+  height: 1910px;
+}
+article, footer {
+	display:block;
+	position:absolute;
+	} 
+article#c1{
+margin-top: 15px; 
+width: 320px;
+text-align: justify;
+background-color: white; 
+padding: 10px;
+height: 1620px;
+font-size: 14px;
+}
+article#c2{
+  margin-top: 15px;
+  margin-left: 340px;
+  width: 980px;
+  text-align: justify;
+  background-color: white; 
+  padding: 10px;
+  height: 1620px;
+  font-size: 16px;
+}
+article#c3 {
+  margin-left: 1340px;
+  width: 320px;
+    margin-top: 15px;
+    text-align: justify;
+    background-color: white; 
+    padding: 10px;
+    height: 1620px;
+    font-size: 14px;
+}
+body {
+    font-size: 16px;
+    border-width: 10px solid rgb(117, 117, 117);
+    background-color: rgb(190, 190, 190);
+  }
+nav {
+margin-top: 0%;
+width: 1680px;
+height: 32px;
+background-color: #046d54f6;
+} 
+nav li 
+{
+float:left;
+margin: 8px 20px 2px;
+list-style-type: none;
+margin: 0;
+margin-top: 4px;
+} 
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 2px 30px;
+  text-align: left;
+;
+}
+nav a:hover /*при навидении курсора мыши */
+{
+color: white;
+background-color: rgb(62, 62, 62);
+}  
+ .img{
+  margin-bottom: 10px;
+ }
+footer{
+  font-size: 14px;
+  margin-top: 1680px;
+  background-color: #046d54f6;
+  width: 1680px;
+  height: 160px;
+}
+.p1, .p2, .p3, .p4{
+  display:block;
+	position:absolute; 
+}
+.p1{
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 250px;
+  background-color:rgb(190, 190, 190);
+  text-align: center;
+}
+.p2{
+  margin-top: 20px;
+  margin-left: 410px;
+  width: 250px;
+  background-color:rgb(190, 190, 190);
+  text-align: center;
+}
+.p3{
+  margin-top: 20px;
+  margin-left: 700px;
+  width: 250px;
+  background-color:rgb(190, 190, 190);
+  text-align: center;
+}
+.p4{  
+  margin-top: 20px;
+  margin-left: 990px;
+  width: 250px;
+  background-color:rgb(190, 190, 190);
+  text-align: center;
+}
+.p5{  
+  margin-top: 20px;
+  margin-left: 1280px;
+  width: 250px;
+  background-color:rgb(190, 190, 190);
+  text-align: center;
+}
+p#text {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}

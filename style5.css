@@ -1,0 +1,20 @@
+.breadcrumbs {
+    list-style: none;
+  }
+  .breadcrumbs-item {
+    display: inline-block;
+  }
+  .breadcrumbs-item:not(:last-child):after {
+    content: ">";
+    margin-left: 5px;
+  }
+  .breadcrumbs-link {
+    color: #0b56ea;
+    text-decoration: none;
+  }
+  .breadcrumbs-link:hover {
+    text-decoration: underline;
+  }
+  .span {
+    color: #333;
+  }
